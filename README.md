@@ -52,3 +52,6 @@ npm run build
 3. View real-time status updates and delivery information
 4. Contact drivers or track live delivery (UI ready for backend integration)
 
+## NOTE
+
+1. UI was made with cursor
