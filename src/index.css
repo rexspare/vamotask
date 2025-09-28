@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  /* Core Colors */
+  --white: #FFFFFF;
+  /* Standard white for text or backgrounds */
+  --black: #000000;
+  /* Standard black for text or contrast */
+
+  /* Brand Colors */
+  --blue: #5E8BB1;
+  /* Muted sky blue – use for secondary buttons or highlights */
+  --purple: #48719E;
+  /* Indigo-leaning purple – can complement the blue for depth */
+
+  /* Background & Surface */
+  --nav-background: #020617;
+  --background: #000000;
+  /* Deep navy – ideal for page background */
+  --lightblack: #123246;
+  /* Soft dark – good for card backgrounds or overlays */
+
+  /* Primary Accent Colors */
+  --primary: #16C4E1;
+  /* Bright cyan – for CTAs, links, or icons */
+  --primary2: #02758E;
+  /* Deeper cyan – for hover states, borders, or gradients */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  background-color: var(--background);
+}
+
+body {
+  background-color: var(--background);
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.container-index {
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.container-content {
+  margin-top: 100px;
+}
+
+.btn {
+  background: transparent;
+  color: var(--primary);
+  padding: 14px 25px;
+  font-size: 16px;
+  border: 2px solid var(--primary);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+.btn-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn:hover {
+  background: var(--primary);
+  color: var(--background);
+}
+
+.animated-testimonials-name {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.animated-testimonials-qoute {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* ------ MEDIA QUERY ------ */
+
+@media (max-width:1400px) {
+
+  .container-index {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn {
+    padding: 14px 22px;
+  }
+
+}

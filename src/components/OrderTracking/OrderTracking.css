@@ -1,0 +1,1358 @@
+.main-order-tracking {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .main-order-tracking {
+        padding: 1.5rem;
+        max-width: 42rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-order-tracking {
+        padding: 2rem;
+        max-width: 48rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .main-order-tracking {
+        padding: 2.5rem;
+        max-width: 56rem;
+    }
+}
+
+@media (min-width: 1536px) {
+    .main-order-tracking {
+        padding: 3rem;
+        max-width: 64rem;
+    }
+}
+
+/* Header Styles */
+.header-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 640px) {
+    .header-section {
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-section {
+        margin-bottom: 5rem;
+    }
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.75rem;
+}
+
+@media (min-width: 640px) {
+    .header-title {
+        font-size: 1.875rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-title {
+        font-size: 2.25rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header-title {
+        font-size: 3rem;
+    }
+}
+
+.header-subtitle {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+    .header-subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-subtitle {
+        font-size: 1.125rem;
+    }
+}
+
+/* Delivery Window Card */
+.delivery-window-card {
+    background: linear-gradient(to right, #2563eb, #9333ea);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-window-card {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-window-card {
+        padding: 2.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .delivery-window-card {
+        padding: 3rem;
+    }
+}
+
+.delivery-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-header {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.delivery-clock-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-clock-section {
+        margin-bottom: 0;
+    }
+}
+
+.delivery-clock-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+}
+
+@media (min-width: 640px) {
+    .delivery-clock-icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-clock-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.delivery-window-label {
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-window-label {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-window-label {
+        font-size: 1.25rem;
+    }
+}
+
+.delivery-time-section {
+    text-align: left;
+}
+
+@media (min-width: 640px) {
+    .delivery-time-section {
+        text-align: right;
+    }
+}
+
+.delivery-time-main {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-time-main {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-time-main {
+        font-size: 1.875rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .delivery-time-main {
+        font-size: 2.25rem;
+    }
+}
+
+.delivery-time-sub {
+    color: #dbeafe;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-time-sub {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-time-sub {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .delivery-time-sub {
+        font-size: 1.25rem;
+    }
+}
+
+.delivery-window-center {
+    text-align: center;
+}
+
+.delivery-window-time {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-window-time {
+        font-size: 1.875rem;
+        margin-bottom: 0.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-window-time {
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .delivery-window-time {
+        font-size: 3rem;
+    }
+}
+
+.delivery-expected {
+    color: #dbeafe;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-expected {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-expected {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .delivery-expected {
+        font-size: 1.25rem;
+    }
+}
+
+/* Status Card */
+.status-card {
+    background-color: #111827;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+    .status-card {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .status-card {
+        padding: 2.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .status-card {
+        padding: 3rem;
+    }
+}
+
+.status-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .status-header {
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .status-header {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.status-icon-container {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 640px) {
+    .status-icon-container {
+        padding: 1.25rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .status-icon-container {
+        padding: 1.5rem;
+    }
+}
+
+.status-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 640px) {
+    .status-icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .status-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.status-icon.preparing {
+    color: #eab308;
+}
+
+.status-icon.ready {
+    color: #3b82f6;
+}
+
+.status-icon.out_for_delivery {
+    color: #10b981;
+}
+
+.status-icon.delivered {
+    color: #059669;
+}
+
+.status-icon.default {
+    color: #6b7280;
+}
+
+.status-content {
+    flex: 1;
+}
+
+.status-title {
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+@media (min-width: 640px) {
+    .status-title {
+        font-size: 1.125rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .status-title {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .status-title {
+        font-size: 1.5rem;
+    }
+}
+
+.status-description {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+    .status-description {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .status-description {
+        font-size: 1.125rem;
+    }
+}
+
+/* Progress Bar */
+.progress-container {
+    width: 100%;
+    background-color: #374151;
+    border-radius: 9999px;
+    height: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .progress-container {
+        height: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .progress-container {
+        height: 1.25rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.progress-bar {
+    background: linear-gradient(to right, #3b82f6, #9333ea);
+    height: 100%;
+    border-radius: 9999px;
+}
+
+/* Status Timeline */
+.status-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .status-timeline {
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .status-timeline {
+        gap: 2rem;
+    }
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .timeline-item {
+        gap: 1.5rem;
+    }
+}
+
+.timeline-icon-container {
+    padding: 0.75rem;
+    border-radius: 50%;
+}
+
+@media (min-width: 640px) {
+    .timeline-icon-container {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .timeline-icon-container {
+        padding: 1.25rem;
+    }
+}
+
+.timeline-icon-container.completed {
+    background-color: #10b981;
+}
+
+.timeline-icon-container.current {
+    background-color: #4b5563;
+}
+
+.timeline-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: white;
+}
+
+@media (min-width: 640px) {
+    .timeline-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .timeline-icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+.timeline-content {
+    flex: 1;
+}
+
+.timeline-status {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0.25rem;
+}
+
+@media (min-width: 640px) {
+    .timeline-status {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .timeline-status {
+        font-size: 1.25rem;
+    }
+}
+
+.timeline-time {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+    .timeline-time {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .timeline-time {
+        font-size: 1.125rem;
+    }
+}
+
+/* Driver Information */
+.driver-card {
+    background-color: #111827;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+    .driver-card {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-card {
+        padding: 2.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .driver-card {
+        padding: 3rem;
+    }
+}
+
+.driver-title {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 640px) {
+    .driver-title {
+        margin-bottom: 2rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-title {
+        margin-bottom: 2.5rem;
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .driver-title {
+        font-size: 1.5rem;
+    }
+}
+
+.driver-title-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .driver-title-icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-title-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.driver-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .driver-info {
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-info {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.driver-photo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (min-width: 640px) {
+    .driver-photo {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-photo {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .driver-photo {
+        width: 7rem;
+        height: 7rem;
+    }
+}
+
+.driver-details {
+    flex: 1;
+}
+
+.driver-name {
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 640px) {
+    .driver-name {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-name {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .driver-name {
+        font-size: 1.5rem;
+    }
+}
+
+.driver-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.driver-star {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #fbbf24;
+    fill: currentColor;
+}
+
+@media (min-width: 640px) {
+    .driver-star {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-star {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+.driver-rating-text {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+    .driver-rating-text {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-rating-text {
+        font-size: 1.125rem;
+    }
+}
+
+.driver-vehicle {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+    .driver-vehicle {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-vehicle {
+        font-size: 1.125rem;
+    }
+}
+
+.driver-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .driver-actions {
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+.driver-button {
+    flex: 1;
+    background-color: #2563eb;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.driver-button:hover {
+    background-color: #1d4ed8;
+}
+
+@media (min-width: 640px) {
+    .driver-button {
+        padding: 1.25rem 2rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-button {
+        padding: 1.5rem 2.5rem;
+        font-size: 1.25rem;
+    }
+}
+
+.driver-button.secondary {
+    background-color: #374151;
+}
+
+.driver-button.secondary:hover {
+    background-color: #4b5563;
+}
+
+.driver-button-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+@media (min-width: 640px) {
+    .driver-button-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .driver-button-icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+/* Order Details */
+.order-details-card {
+    background-color: #111827;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+    .order-details-card {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-details-card {
+        padding: 2.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .order-details-card {
+        padding: 3rem;
+    }
+}
+
+.order-details-title {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 640px) {
+    .order-details-title {
+        margin-bottom: 2rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-details-title {
+        margin-bottom: 2.5rem;
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .order-details-title {
+        font-size: 1.5rem;
+    }
+}
+
+.order-details-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .order-details-icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-details-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.order-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .order-items {
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-items {
+        gap: 2rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-item-details {
+    flex: 1;
+}
+
+.order-item-name {
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+@media (min-width: 640px) {
+    .order-item-name {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-item-name {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .order-item-name {
+        font-size: 1.5rem;
+    }
+}
+
+.order-item-quantity {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+    .order-item-quantity {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-item-quantity {
+        font-size: 1.125rem;
+    }
+}
+
+.order-item-price {
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+@media (min-width: 640px) {
+    .order-item-price {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-item-price {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .order-item-price {
+        font-size: 1.5rem;
+    }
+}
+
+.order-total-section {
+    border-top: 1px solid #374151;
+    padding-top: 1rem;
+}
+
+@media (min-width: 640px) {
+    .order-total-section {
+        padding-top: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-total-section {
+        padding-top: 2rem;
+    }
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-total-label {
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+@media (min-width: 640px) {
+    .order-total-label {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-total-label {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .order-total-label {
+        font-size: 1.5rem;
+    }
+}
+
+.order-total-amount {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+@media (min-width: 640px) {
+    .order-total-amount {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .order-total-amount {
+        font-size: 1.875rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .order-total-amount {
+        font-size: 2.25rem;
+    }
+}
+
+/* Delivery Address */
+.delivery-address-card {
+    background-color: #111827;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-address-card {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-address-card {
+        padding: 2.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .delivery-address-card {
+        padding: 3rem;
+    }
+}
+
+.delivery-address-title {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-address-title {
+        margin-bottom: 2rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-address-title {
+        margin-bottom: 2.5rem;
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .delivery-address-title {
+        font-size: 1.5rem;
+    }
+}
+
+.delivery-address-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-address-icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-address-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.delivery-address-text {
+    color: #d1d5db;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 640px) {
+    .delivery-address-text {
+        margin-bottom: 1.5rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .delivery-address-text {
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .delivery-address-text {
+        font-size: 1.5rem;
+    }
+}
+
+.special-instructions {
+    background-color: #1f2937;
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+
+@media (min-width: 640px) {
+    .special-instructions {
+        padding: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .special-instructions {
+        padding: 2rem;
+    }
+}
+
+.special-instructions-label {
+    color: #9ca3af;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 640px) {
+    .special-instructions-label {
+        margin-bottom: 0.75rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .special-instructions-label {
+        font-size: 1.125rem;
+    }
+}
+
+.special-instructions-text {
+    color: white;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+    .special-instructions-text {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .special-instructions-text {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .special-instructions-text {
+        font-size: 1.25rem;
+    }
+}
+
+/* Footer */
+.footer-section {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.875rem;
+    padding: 2rem 0;
+}
+
+@media (min-width: 640px) {
+    .footer-section {
+        font-size: 1rem;
+        padding: 3rem 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-section {
+        font-size: 1.125rem;
+        padding: 4rem 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer-section {
+        font-size: 1.25rem;
+    }
+}
+
+.footer-text {
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 640px) {
+    .footer-text {
+        margin-bottom: 0.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-text {
+        margin-bottom: 1rem;
+    }
+}
